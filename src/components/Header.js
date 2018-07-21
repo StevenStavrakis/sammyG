@@ -12,10 +12,7 @@ const Header = (props) => (
         <Tilt className="Tilt" options={{ max : 25 }} style={{ height: 500, width: 600, margin: 'auto' }} > 
             <Logo/>
         </Tilt>
-    
-        
         <Back/>
-        <p>Check back later he might be back then.</p>
     </header>
 )
 
