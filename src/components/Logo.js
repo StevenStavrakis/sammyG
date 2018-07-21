@@ -10,7 +10,7 @@ let logoStyles = {
 const browserDetect = () => {
 
 // Chrome 1+
-var isChrome = !!window.chrome && !!window.chrome.webstore;
+var isChrome = false //!!window.chrome && !!window.chrome.webstore;
 
 if (isChrome != true) {
     return <span className="logo"><img src={logoOther} style={logoStyles} alt="" /></span> 
