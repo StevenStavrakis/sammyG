@@ -2,10 +2,10 @@ import React from 'react'
 import Link from 'gatsby-link'
 import Back from './Back.js'
 
-import logo from '../assets/images/sammy.png';
+import logo from '../assets/images/SamNoBg.png';
 
 let logoStyles = {
-    maxHeight: '200px'
+    maxHeight: '500px'
 }
 
 const Header = (props) => (
