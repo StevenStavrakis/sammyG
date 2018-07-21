@@ -3,7 +3,7 @@ import Link from 'gatsby-link'
 
 function Back(props) {
     return (
-      <h1 className="square" onClick={props.onClick}>
+      <h1>
         {(function() {
             let current = new Date();
             let returnDate = new Date(2019, 9, 21);
