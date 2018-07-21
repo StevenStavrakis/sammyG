@@ -13,6 +13,7 @@ const Header = (props) => (
             <Logo/>
         </Tilt>
         <Back/>
+        <small style={{fontSize: '12px'}}>Want to help offset the cost of this website? <a href="//paypal.me/StevenStavrakis" target="_blank">Click here.</a></small>
     </header>
 )
 
