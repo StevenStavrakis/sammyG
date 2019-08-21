@@ -6,7 +6,7 @@ function Back(props) {
       <div>
         {(function() {
             let current = new Date();
-            let returnDate = new Date(2019, 9, 21);
+            let returnDate = new Date(2019, 8, 21);
             console.log(returnDate.getMonth())
             console.log(current.getMonth() + 1)
             if (current.getDate() >= returnDate.getDate() && current.getMonth() +1 >= returnDate.getMonth()) {
